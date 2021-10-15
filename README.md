@@ -8,7 +8,7 @@ Jupyter Python+Javascript Widgets: link javascript variables with Kernel Python 
 
 ## Examples
 
-* get the current calling url in a python variable
+* get the current calling Notebook url in a python variable
 * get the browser Geo Position (if the user accepts) in a Python variable
 
 ## Architecture
