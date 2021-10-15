@@ -15,7 +15,8 @@ Jupyter Python+Javascript Widgets: link javascript variables with Kernel Python 
 
 * Javascript is simply generated thanks to the _repr_javascript_ capability of IPython Notebook
    * this allows to set whatever javascript variable from a notebook programmatically
-* Writing back javascript 
+* Writing back javascript values to the notebook via the HTTP server
+   * this allows to set whatever python IPython kernel variable with javascript Browser values
 
 ## Install
 
