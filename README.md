@@ -1,5 +1,5 @@
 # jpjwidgets
-Jupyter Python+Javascript Widgets: link javascript variables with Kernel Python variables
+Jupyter Python+Javascript Widgets: link javascript variables with Kernel Python variables and vice-versa
 
 ## If you want
 
