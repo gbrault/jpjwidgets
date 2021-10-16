@@ -9,7 +9,7 @@ jpjwidgets is not a replacement for ipywidgets, it is just a complement which fi
       * the notebook is at the same time
         * A Jupyter IPython notebook
         * A REST API (which can also serve some web pages if needed)
-  * Please use UI widgets ipywidgets as jpjwidgets project will not develop that (it is just a POC)
+  * **Please use UI widgets ipywidgets**: jpjwidgets project will not develop that (it is just a POC)
 
 ## If you want
 
