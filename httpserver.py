@@ -61,9 +61,9 @@ def up(server_class=StoppableHTTPServer, handler_class=S, port=8080, output=None
 def start(server_class=StoppableHTTPServer,handler_class=S,port=8080,output=None):
     """Ask for server start"""
     global x
-    print("Main    : before creating thread")
+    # print("Main    : before creating thread")
     x = threading.Thread(target=up, args=(), kwargs={'server_class': server_class, 'handler_class': handler_class, 'port': port, 'output': output})
-    print("Main    : before running thread")
+    # print("Main    : before running thread")
     x.start()
 
 def stop():
