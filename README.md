@@ -22,6 +22,7 @@ Jupyter Python+Javascript Widgets: link javascript variables with Kernel Python 
 
 * **Base Framework**: Jupyter Lab + Jupyter ipywidgets + Jupyter Server proxy
 * **Copy**: notebook and python file in a Jupyter Lab directory
+* create the widgets directory in the above
 * **Run**: The notebook
 
 ## Documentation
