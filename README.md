@@ -8,7 +8,7 @@ jpjwidgets is not a replacement for ipywidgets, it is just a complement which fi
       * This HTTP communciation if completly safe as under the security framework of jupyter lab and using the jupyter server proxy
       * the notebook is at the same time
         * A Jupyter IPython notebook
-        * A REST API (which can also serve some web pages if needed)
+        * A REST API (which can also serve some web pages or files if needed)
   * **Please use UI widgets from ipywidgets**: jpjwidgets project will not develop that (the range widget it is just a POC)
 
 ## If you want
