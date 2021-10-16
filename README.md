@@ -14,7 +14,7 @@ jpjwidgets is not a replacement for ipywidgets, it is just a complement which fi
 ## If you want
 
 * to copy browser's javascript variables to IPython kernel variable
-* to set some browser's variable based upon IPython kernal variable
+* to set some browser's variable based upon IPython kernel variable
 
 ## Examples
 
