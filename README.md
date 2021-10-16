@@ -4,7 +4,7 @@ Jupyter Python+Javascript Widgets: link javascript variables with Kernel Python 
 jpjwidgets is not a replacement for ipywidgets, it is just a complement which fill some gaps
 
   * The most differentiating feature is that jpjwidgets brings a REST API, build by the application designer, to the notebook
-      * With the above feature, its possible to to fill the gap Jupyter Lab had (by design): communicate from javascript browser to the python kernel
+      * With the above feature, its possible to to fill the gap Jupyter Lab had (by design): communicate from javascript browser to the python kernel off-the-shelf
       * This HTTP communciation if completly safe as under the security framework of jupyter lab and using the jupyter server proxy
       * the notebook is at the same time
         * A Jupyter IPython notebook
