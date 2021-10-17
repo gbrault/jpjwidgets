@@ -34,9 +34,17 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 ## Install
 
 * **Base Framework**: Jupyter Lab + Jupyter ipywidgets + Jupyter Server proxy
-* **Copy**: notebook and python file in a Jupyter Lab directory
-* create the widgets directory in the above
+* **Copy**: notebook, python file and subdirectories widgets and modules -- just for LoadJavascriptModules (including content) in a Jupyter Lab directory
+* create the widgets directory in the above (if not created for LoadJavascriptModules)
 * **Run**: The notebooks
+
+## Notebooks
+
+| Notebook | features |
+| -------- | -------- |
+| LeanGettingStarted.ipynb | Getting Started example to retreive the Notebook url in a python variable |
+| javascriptwidgets.ipynb | Three examples: Notebook url, Browser Geo position, a slider Range UI |
+| LoadingJavascriptModules.ipynb | Show case for loading javascript modules [see Basic-Modules](https://github.com/mdn/js-examples/tree/master/modules/basic-modules) |
 
 ## Documentation
 
