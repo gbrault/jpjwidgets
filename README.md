@@ -36,6 +36,7 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 * **Base Framework**: Jupyter Lab + Jupyter ipywidgets + Jupyter Server proxy
 * **Copy**: notebook, python file and subdirectories widgets and modules -- just for LoadJavascriptModules (including content) in a Jupyter Lab directory
 * create the widgets directory in the above (if not created for LoadJavascriptModules)
+* git clone might be a friend for the above
 * **Run**: The notebooks
 
 ## Notebooks and Python file
