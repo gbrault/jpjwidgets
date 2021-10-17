@@ -10,6 +10,7 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
       * the notebook is at the same time
         * A Jupyter IPython notebook
         * A REST API (which can also serve some web pages or files if needed)
+      * This web server attached to a notebook can also be used to load dynamically javascript modules
   * **Please use UI widgets from ipywidgets**: jpjwidgets project will not develop that (the range widget is just a POC)
 
 ## If you want
