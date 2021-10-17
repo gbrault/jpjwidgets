@@ -38,13 +38,14 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 * create the widgets directory in the above (if not created for LoadJavascriptModules)
 * **Run**: The notebooks
 
-## Notebooks
+## Notebooks and Python file
 
 | Notebook | features |
 | -------- | -------- |
 | LeanGettingStarted.ipynb | Getting Started example to retreive the Notebook url in a python variable |
 | javascriptwidgets.ipynb | Three examples: Notebook url, Browser Geo position, a slider Range UI |
-| LoadingJavascriptModules.ipynb | Show case for loading javascript modules [see Basic-Modules](https://github.com/mdn/js-examples/tree/master/modules/basic-modules) |
+| LoadingJavascriptModules.ipynb | Show case for loading javascript modules [see Basic-Modules](https://github.com/mdn/js-examples/tree/master/modules/basic-modules) and [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) |
+| httpserver.py | A python script to help managing a python based HttpServer [see](https://docs.python.org/3/library/http.server.html) |
 
 ## Documentation
 
