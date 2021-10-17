@@ -48,6 +48,18 @@ def up(server_class=StoppableHTTPServer, handler_class=S, port=8080, output=None
     """Actual server start"""
     global httpd
     server_address = ('127.0.0.1', port)
+    handler_class.extensions_map={
+        '.manifest': 'text/cache-manifest',
+        '.html': 'text/html',
+        '.png': 'image/png',
+        '.jpg': 'image/jpg',
+        '.svg': 'image/svg+xml',
+        '.css': 'text/css',
+        '.js': 'application/x-javascript',
+        '.json': 'application/json',
+        '.xml': 'application/xml' ,      
+        '': 'application/octet-stream', # Default
+        }    
     httpd = server_class(server_address, handler_class)
     httpd.output = output
     print('Starting httpd...\n')
