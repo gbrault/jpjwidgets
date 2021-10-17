@@ -54,4 +54,8 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 * Read the notebooks notes
 * read the python file comments if you want to dig the HTTP server operations
 
+## Notice
+
+* Don't forget to stop the HTTP server, best is to shutdown the IPython kernel, as the used port will generate an issue elsewhere.
+
 (1) This clarification was requested by [@krassowski](https://github.com/krassowski) [see](https://github.com/jupyterlab/jupyterlab/issues/5660#issuecomment-944889747)
