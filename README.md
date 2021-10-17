@@ -15,10 +15,10 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 
 ## If you want
 
-* to copy browser's javascript variables to IPython kernel variable
-* to set some browser's variable based upon IPython kernel variable
+* To copy browser's javascript variables to IPython kernel variable
+* To set some browser's variable based upon IPython kernel variable (native to Jupyter Notebook)
 * Dynamically load some javascript modules (ESM)
-* feed the notebook with pictures from your smartphone live (implementation not provided here)
+* Feed the notebook with pictures from your smartphone live (implementation not provided)
 
 ## Examples
 
