@@ -24,6 +24,7 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 
 * get the current calling Notebook url in a python variable
 * get the browser Geo Position (if the user accepts) in a Python variable
+* dynamically load javascript modules
 
 ## Architecture
 
