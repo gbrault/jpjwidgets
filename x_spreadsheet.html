@@ -14627,12 +14627,12 @@ a.anchor-link {
 
 
 
-<div id="4ac44804-625f-4220-989b-f8400c726f67" class="jupyter-widgets jp-OutputArea-output ">
+<div id="03e91e65-def0-4d0d-a7ec-f1ad28aa92ca" class="jupyter-widgets jp-OutputArea-output ">
 <script type="text/javascript">
-var element = document.getElementById('4ac44804-625f-4220-989b-f8400c726f67');
+var element = document.getElementById('03e91e65-def0-4d0d-a7ec-f1ad28aa92ca');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "0e0f70d4e97c41c390598e1ed8686071", "version_major": 2, "version_minor": 0}
+{"model_id": "999c15871c8f4fffa76f5856548f9fa8", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -14749,7 +14749,7 @@ var element = document.getElementById('4ac44804-625f-4220-989b-f8400c726f67');
 <span class="s1">      element = document.querySelector(selector);</span>
 <span class="s1">      if (element[&#39;data-loaded&#39;]==0){</span>
 <span class="s1">          element[&#39;data-loaded&#39;] = 1;</span>
-<span class="s1">          load_spreadsheet(selector);</span>
+<span class="s1">          x_spreadsheet(selector);</span>
 <span class="s1">      }</span>
 <span class="s1">}</span>
 <span class="s1">function wait_x_spreadsheet(){</span>
@@ -14757,7 +14757,7 @@ var element = document.getElementById('4ac44804-625f-4220-989b-f8400c726f67');
 <span class="s1">       setTimeout(function(){ wait_x_spreadsheet()}, 500);</span>
 <span class="s1">   } else {</span>
 <span class="s1">       // sub modules might not be loaded (let them 2 secs)</span>
-<span class="s1">       setTimeout(x_spreadsheet, 2000, &#39;#xspreadsheet&#39;);</span>
+<span class="s1">       setTimeout(load_spreadsheet, 2000, &#39;#xspreadsheet&#39;);</span>
 <span class="s1">   }</span>
 <span class="s1">}</span>
 <span class="s1">wait_x_spreadsheet();</span>
@@ -14818,9 +14818,9 @@ var element = document.getElementById('4ac44804-625f-4220-989b-f8400c726f67');
 
 
 
-<div id="f008cbb3-2ded-45c5-b7b9-b1a7e19f2fa3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="2c13c019-6412-471a-a5ee-41a542f9f34c" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('f008cbb3-2ded-45c5-b7b9-b1a7e19f2fa3');
+var element = document.getElementById('2c13c019-6412-471a-a5ee-41a542f9f34c');
 debugger;
         let divWrapper = document.createElement('div');
         divWrapper.id = "xspreadsheet";
@@ -14866,9 +14866,9 @@ debugger;
 
 
 
-<div id="f008cbb3-2ded-45c5-b7b9-b1a7e19f2fa3" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
+<div id="2c13c019-6412-471a-a5ee-41a542f9f34c" class="jp-RenderedJavaScript jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('f008cbb3-2ded-45c5-b7b9-b1a7e19f2fa3');
+var element = document.getElementById('2c13c019-6412-471a-a5ee-41a542f9f34c');
 debugger;
 var id = document.getElementById("x_spreadsheet_script")
 if (id!=null){
@@ -14936,15 +14936,15 @@ if (id!=null){
 
 
 
-<div id="f008cbb3-2ded-45c5-b7b9-b1a7e19f2fa3" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="2c13c019-6412-471a-a5ee-41a542f9f34c" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('f008cbb3-2ded-45c5-b7b9-b1a7e19f2fa3');
+var element = document.getElementById('2c13c019-6412-471a-a5ee-41a542f9f34c');
 debugger;
 function load_spreadsheet(selector){
       element = document.querySelector(selector);
       if (element['data-loaded']==0){
           element['data-loaded'] = 1;
-          load_spreadsheet(selector);
+          x_spreadsheet(selector);
       }
 }
 function wait_x_spreadsheet(){
@@ -14952,7 +14952,7 @@ function wait_x_spreadsheet(){
        setTimeout(function(){ wait_x_spreadsheet()}, 500);
    } else {
        // sub modules might not be loaded (let them 2 secs)
-       setTimeout(x_spreadsheet, 2000, '#xspreadsheet');
+       setTimeout(load_spreadsheet, 2000, '#xspreadsheet');
    }
 }
 wait_x_spreadsheet();
