@@ -18,6 +18,7 @@ jpjwidgets is not a replacement<sup>2</sup> for ipywidgets, it is just a complem
 * To copy browser's javascript variables to IPython kernel variable
 * To set some browser's variable based upon IPython kernel variable (native to Jupyter Notebook)
 * Dynamically load some javascript modules (ESM)
+* Use Web Components inside jupyter Notebooks
 * Feed the notebook with pictures from your smartphone live (implementation not provided)
 
 ## Examples
@@ -27,6 +28,7 @@ jpjwidgets is not a replacement<sup>2</sup> for ipywidgets, it is just a complem
 * dynamically load javascript modules
     * Basic-Modules from MDN as a showcase
     * x-spreadsheet: an excel like front-end
+    * wired-elements Web Components showcase
 
 ## Architecture
 
