@@ -26,7 +26,7 @@ jpjwidgets is not a replacement<sup>1</sup> for ipywidgets, it is just a complem
 * get the browser Geo Position (if the user accepts) in a Python variable
 * dynamically load javascript modules
     * Basic-Modules from MDN as a showcase
-    * x-spreadsheet: an excel like front-end
+    * x-spreadsheet: an excel like front-end [x_spreadsheet](x_spreadsheet.html)
 
 ## Architecture
 
