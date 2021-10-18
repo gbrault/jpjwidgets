@@ -60,7 +60,7 @@ jpjwidgets is not a replacement<sup>2</sup> for ipywidgets, it is just a complem
 * Read the notebooks notes
 * read the python file comments if you want to dig the HTTP server operations
 
-## Notice
+## Notice and Foot Notes
 
 * Don't forget to stop the HTTP server, best is to shutdown the IPython kernel, as the used port will generate an issue elsewhere.
 * you can select the port when launching a server, just add port=xxxx to the start function
