@@ -6,4 +6,4 @@ ipybus is an ipywidgets [see](https://github.com/gbrault/ipybus) enabling commun
   * this frontend variable can be used in javascript to set a new value and send it to the backend
   * The notebook developper can then create scripts in the frontend which send values to the backend
 
-See the wired-elements-ipybus Notebook for more insights
+See the [wired-elements-ipybus](wired-elements-ipybus.ipynb) Notebook for more insights
