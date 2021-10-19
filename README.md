@@ -1,6 +1,9 @@
 # jpjwidgets
 Jupyter Python+Javascript Widgets<sup>1</sup>: link javascript variables with Kernel Python variables and vice-versa.
 
+> **_Note:_** One way to create a communication channel from the frontend to the backend is to open an HTTP Server, but there is also another way: ipybus.
+> See associated readme for further discussion
+
 jpjwidgets is not a replacement<sup>2</sup> for ipywidgets, it is just a complement which fill some gaps and brings some 'innovations'
 
   * The most differentiating feature is that jpjwidgets brings a REST API, built by the application designer, embedded in the notebook
@@ -63,10 +66,11 @@ jpjwidgets is not a replacement<sup>2</sup> for ipywidgets, it is just a complem
 * Read the notebooks notes
 * read the python file comments if you want to dig the HTTP server operations
 
-## Notice and Foot Notes
+## Notice, Limitations and Foot Notes
 
 * Don't forget to stop the HTTP server, best is to shutdown the IPython kernel, as the used port will generate an issue elsewhere.
 * you can select the port when launching a server, just add port=xxxx to the start function
+* The HTTP server might sometime lock the port which request restart of the jupyter server
 
 1. In computing, a Widget is an application, or a component of an interface, that enables a user to perform a function or access a service.
 2. This clarification was requested by [@krassowski](https://github.com/krassowski) [see](https://github.com/jupyterlab/jupyterlab/issues/5660#issuecomment-944889747)
