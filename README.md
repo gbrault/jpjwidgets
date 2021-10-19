@@ -2,7 +2,7 @@
 Jupyter Python+Javascript Widgets<sup>1</sup>: link javascript variables with Kernel Python variables and vice-versa.
 
 > **_Note:_** One way to create a communication channel from the frontend to the backend is to open an HTTP Server, but there is also another way: ipybus.
-> See associated readme for further discussion
+> See [associated readme](ipybus.md) for further discussion
 
 jpjwidgets is not a replacement<sup>2</sup> for ipywidgets, it is just a complement which fill some gaps and brings some 'innovations'
 
